@@ -23,8 +23,5 @@ let package = Package(
         .target(
             name: "LocalisationKit",
             dependencies: []),
-        .testTarget(
-            name: "LocalisationKitTests",
-            dependencies: ["LocalisationKit"]),
     ]
 )
