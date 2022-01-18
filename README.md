@@ -30,3 +30,12 @@ Dependencies/SwiftGen/bin/swiftgen config run --config swiftgen.yml
 ```
 
 For more info, use `swiftgen config doc` to open the full documentation on [GitHub](https://github.com/SwiftGen/SwiftGen/tree/6.4.0/Documentation).
+
+## Author
+
+LocalisationKit was created with ❤️ by Andreas Watke.
+
+
+## License
+
+TheMovieDatabase-SwiftUI is released under the MIT license. See [LICENSE](LICENSE) for more information.
