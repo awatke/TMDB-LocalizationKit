@@ -130,7 +130,8 @@ public enum Loc {
       public static let header = Loc.tr("Localizable", "actor_detail.filmographie.header")
     }
     public enum Slider {
-      /// Alle \nanzeigen
+      /// Alle 
+      /// anzeigen
       public static let showAll = Loc.tr("Localizable", "actor_detail.slider.show_all")
       public enum Movie {
         /// Hauptdarsteller
