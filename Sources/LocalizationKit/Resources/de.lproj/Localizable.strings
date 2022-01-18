@@ -1,0 +1,215 @@
+/* 
+  Localizable.strings
+  TheMovieDatabase (TMDB)
+
+  Created by Andreas Watke on 18.01.22.
+  
+*/
+
+// MARK: - General
+
+"general.ok" = "OK";
+"general.error" = "Fehler";
+"general.search" = "Suche";
+"general.close" = "Schließen";
+
+// MARK: - Tabbar
+
+"tabbar.home" = "Home";
+"tabbar.trend" = "Charts";
+"tabbar.search" = "Suche";
+"tabbar.profile" = "Profil";
+
+// MARK: - Home
+
+"home.trending.tv.header" = "Beliebte Serien";
+"home.trending.movie.header" = "Beliebte Filme";
+"home.upcoming.movie.header" = "Demnächst im Kino";
+"home.latest_trailer.header" = "Neuste Kino Trailer";
+"home.watchlist.header" = "Ihre Watchliste";
+
+"home.watchlist.empty.title" = "Ihre Watchliste ist leer";
+"home.watchlist.title" = "Melden Sie sich an, um Ihre Watchliste zu bearbeiten.";
+"home.watchlist.empty.text" = "Nie eine Serie oder Film verpassen. Behalten Sie Ihre Watchliste im Blick.";
+"home.watchlist.text" = "Speichern Sie Sendungen und Filme, damit Sie immer wissen, was Sie sehen möchten.";
+"home.watchlist.button" = "Anmelden";
+
+// MARK: - Trend
+
+"trend.top_rated.movie.header" = "Bestbewertete Filme";
+"trend.top_rated.tv.header" = "Bestbewertete Serien";
+"trend.popular.person.header" = "Beliebte Personen";
+
+// MARK: - Search
+
+"search.tab.movie.title" = "Filme";
+"search.tab.tv.title" = "Serien";
+"search.tab.person.title" = "Personen";
+
+"search.searchbar.placeholder" = "Suche nach Film, Serie, Person...";
+"search.movie.no_results" = "Leider konnte kein Film zur deiner Suchanfrage gefunden werden.";
+"search.tv.no_results" = "Leider konnte keine Serie zur deiner Suchanfrage gefunden werden.";
+"search.person.no_results" = "Leider konnte keine Person zur deiner Suchanfrage gefunden werden.";
+
+// MARK: - Profile
+
+"profile.info.header" = "Information";
+"profile.info.app_settings.title" = "App Einstellungen";
+"profile.info.terms_of_use.title" = "Nutzungsbedingungen";
+"profile.info.privacy_poolicy.title" = "Datenschutzerklärung";
+
+"profile.version" = "Version %@";
+
+"profile.login.title" = "Einloggen";
+"profile.login.isLoggedIn.text" = "Sie können auf TMDB-Funktionen wie die Watchlist, persönliche Empfehlungen und Favoriten zugreifen.";
+"profile.login.isNotLoggedIn.text" = "Melden Sie sich an, um auf TMDB-Funktionen wie die Watchlist, persönliche Empfehlungen und Favoriten zuzugreifen.";
+"profile.login.button" = "Anmelden";
+"profile.logout.button" = "Abmelden";
+
+"profile.logout.alert.title" = "Abmelden";
+"profile.logout.alert.message" = "Möchten Sie sich wirklich abmelden?";
+"profile.logout.alert.success.button" = "Abmelden";
+"profile.logout.alert.cancel.button" = "Abbrechen";
+"profile.logout.snackbar.success.title" = "Erfolgreich abgemeldet";
+
+"profile.about_TMDB" = "The Movie Database (TMDB) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.";
+
+// MARK: - Detail
+
+"media_detail.storyline.title" = "Handlung";
+"media_detail.recommendations.title" = "Empfehlungen";
+
+"movie_detail.info.originalTitle" = "Originaltitel";
+"movie_detail.info.status" = "Status";
+"movie_detail.info.originalLanguage" = "Originalsprache";
+"movie_detail.info.budget" = "Budget";
+"movie_detail.info.revenue" = "Einspielergebnis";
+
+"tv_detail.info.originalLanguage" = "Originalsprache";
+"tv_detail.info.network" = "Sender";
+"tv_detail.info.status" = "Status";
+"tv_detail.info.type" = "Art";
+
+"actor_detail.biographie.header" = "Biographie";
+"actor_detail.biographie.empty.text" = "Wir haben keine Biografie für %@.";
+"actor_detail.famous_from_movies.header" = "Bekannt für";
+"actor_detail.filmographie.header" = "Filmographie";
+
+"actor_detail.slider.movie.header" = "Hauptdarsteller";
+"actor_detail.slider.tv.header" = "Serienbesetzung";
+"actor_detail.slider.show_all" = "Alle \nanzeigen";
+"actor_detail.castCrew.title" = "Cast & Crew";
+"actor_detail.cast_list.title" = "Besetzung %@";
+
+// MARK: - AuthenticationView
+
+"auth.navigation.title" = "Anmelden";
+"auth.header" = "Um alle Vorteile nutzen zu können";
+"auth.watchlist.header" = "Um die Watchliste nutzen zu können";
+"auth.benefit_1.text" = "Erstelle und bearbeite deine persönliche Watchliste.";
+"auth.benefit_2.text" = "Speichere all die Filme und Serien die du gesehen hast.";
+"auth.benefit_3.text" = "Organisiere deine Lieblingsfilme und -serien und erhalte passende Empfehlungen.";
+"auth.benefit_4.text" = "Erstelle eigene Listen mit Filmen und Serien.";
+"auth.benefit_5.text" = "Nimm an Diskussionen zu Filmen und Serien teil.";
+"auth.benefit_6.text" = "Bearbeite und verbessere die Informationen in unserer Datenbank.";
+
+"auth.create_account.button" = "Konto erstellen";
+"auth.or.title" = "oder";
+"auth.login_with_account.button" = "Mit TMDB-Konto anmelden";
+
+"auth.tab.close.button" = "Schließen";
+
+"auth.login.header" = "Melde dich jetzt an";
+"auth.login.username.placeholder" = "Benutzername eingeben";
+"auth.login.password.placeholder" = "Passwort eingeben";
+"auth.login.disclaimer" = "Indem Sie sich anmelden, akzeptieren Sie die %@ und %@.";
+"auth.login.button" = "Anmelden";
+
+"auth.login.snackbar.success.title" = "Erfolgreich angemeldet";
+
+// MARK: - Error
+
+"error.loading_failure" = "Daten konnten nicht geladen werden. Versuchen Sie es später erneut.";
+"error.unknown" = "Es ist ein Fehler aufgetreten. Versuchen Sie es später erneut.";
+
+// MARK: - API Status Code
+
+"status_code.success" = "Success.";
+"status_code.invalid_service" = "Invalid service: this service does not exist.";
+"status_code.authentication_failed" = "Authentication failed: You do not have permissions to access the service.";
+"status_code.invalid_format" = "Invalid format: This service doesn't exist in that format.";
+"status_code.invalid_parameters" = "Invalid parameters: Your request parameters are incorrect.";
+"status_code.invalid_id" = "Invalid id: The pre-requisite id is invalid or not found.";
+"status_code.invalid_API_key" = "Invalid API key: You must be granted a valid key.";
+"status_code.duplicate_entry" = "Duplicate entry: The data you tried to submit already exists.";
+"status_code.service_offline" = "Service offline: This service is temporarily offline, try again later.";
+"status_code.suspended_API_key" = "Suspended API key: Access to your account has been suspended, contact TMDB.";
+"status_code.internal_error" = "Internal error: Something went wrong, contact TMDB.";
+"status_code.update_item_successfully" = "The item/record was updated successfully.";
+"status_code.deleted_item_successfully" = "The item/record was deleted successfully.";
+"status_code.authentication_failed" = "Authentication failed.";
+"status_code.failed" = "Failed.";
+"status_code.device_denied" = "Device denied.";
+"status_code.session_denied" = "Session denied.";
+"status_code.validation_failed" = "Validation failed.";
+"status_code.invalid_header" = "Invalid accept header.";
+"status_code.invalid_date_range" = "Invalid date range: Should be a range no longer than 14 days.";
+"status_code.entry_not_found" = "Entry not found: The item you are trying to edit cannot be found.";
+"status_code.invalid_page" = "Invalid page: Pages start at 1 and max at 1000. They are expected to be an integer.";
+"status_code.invalid_date" = "Invalid date: Format needs to be YYYY-MM-DD.";
+"status_code.timed_out" = "Your request to the backend server timed out. Try again.";
+"status_code.request_count_over_limit" = "Your request count (#) is over the allowed limit of (40).";
+"status_code.provide_username_password" = "You must provide a username and password.";
+"status_code.too_many_response_objects" = "Too many append to response objects: The maximum number of remote calls is 20.";
+"status_code.invalid_timezone" = "Invalid timezone: Please consult the documentation for a valid timezone.";
+"status_code.confirm_this_action" = "You must confirm this action: Please provide a confirm=true parameter.";
+"status_code.invalid_username_password" = "Ungültiger Benutzername und/oder ungültiges Passwort: Sie haben keine gültige Benutzerkennung angegeben.";
+"status_code.account_disabled" = "Account disabled: Your account is no longer active. Contact TMDB if this is an error.";
+"status_code.email_not_verified" = "E-Mail nicht verifiziert: Ihre E-Mail Adresse wurde nicht verifiziert.";
+"status_code.invalid_request_token" = "Invalid request token: The request token is either expired or invalid.";
+"status_code.resource_not_found" = "The resource you requested could not be found.";
+"status_code.invalid_token" = "Invalid token.";
+"status_code.token_without_write_permission" = "This token hasn't been granted write permission by the user.";
+"status_code.requested_session_not_found" = "The requested session could not be found.";
+"status_code.no_permission_to_edit_resource" = "You don't have permission to edit this resource.";
+"status_code.private_resource" = "This resource is private.";
+"status_code.no_update" = "Nothing to update.";
+"status_code.request_token_not_approved" = "This request token hasn't been approved by the user.";
+"status_code.request_method_not_supported" = "This request method is not supported for this resource.";
+"status_code.no_connection_to_backend_server" = "Couldn't connect to the backend server.";
+"status_code.invalid_id" = "The ID is invalid.";
+"status_code.suspended_user" = "This user has been suspended.";
+"status_code.maintenance_API" = "The API is undergoing maintenance. Try again later.";
+"status_code.invalid_input" = "The input is not valid.";
+
+// MARK: - Accessibility
+
+"accessibility.tabBar" = "tabBar";
+
+"accessibility.tabItem.home" = "home";
+"accessibility.tabItem.trend" = "trend";
+"accessibility.tabItem.search" = "search";
+"accessibility.tabItem.profile" = "profile";
+
+"accessibility.onboarding.title" = "onboardingTitle";
+"accessibility.onboarding.dismiss.button" = "onboardingDismiss";
+
+"accessibility.whatsNew.title" = "whatsNewTitle";
+"accessibility.whatsNew.dismiss.button" = "whatsNewDismiss";
+
+"accessibility.authentication.createAccount.button" = "signupButton";
+"accessibility.authentication.login.button" = "signinButton";
+"accessibility.authentication.dismiss.button" = "authenticationDismiss";
+
+"accessibility.login.username.textField" = "usernameTextField";
+"accessibility.login.password.textField" = "passwordTextField";
+"accessibility.login.signin.button" = "signinSendButton";
+
+"accessibility.home.mediaSlider.tv" = "mediaSliderTV";
+
+"accessibility.profile.authentication.button" = "authenticationButton";
+
+"accessibility.movieDetail.watchlist.button" = "onWatchlistButton";
+"accessibility.tvShowDetail.watchlist.button" = "onWatchlistButton";
+
+"accessibility.watchlist.authentication.button" = "authenticationButton";
